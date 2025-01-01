@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind's `@apply` directive with a utility class that contains a pseudo-selector, like `hover`, `focus`, or `active`, within a custom style directive.  The `@apply` directive does not correctly apply these pseudo-selector styles, resulting in no effect on the element.
