@@ -1,0 +1,1 @@
+Instead of using `@apply` for styles with pseudo-selectors within a custom directive, apply those styles directly within the custom directive. This ensures that the styles are applied correctly.  Avoid nesting `@apply` in this manner.
